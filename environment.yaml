@@ -17,4 +17,4 @@ dependencies:
   - conda-forge::ipdb
   - pip
   - pip:
-    - -r requirements.txt
+    - --trusted-host pypi.python.org --trusted-host files.pythonhosted.org --trusted-host pypi.org　-r requirements.txt
